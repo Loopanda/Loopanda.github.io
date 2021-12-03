@@ -195,14 +195,14 @@ body::before {
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  opacity: 1;
+  opacity: 0.8;
 }
 @-moz-keyframes bgFadeIn {
   from {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @-webkit-keyframes bgFadeIn {
@@ -210,7 +210,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @-o-keyframes bgFadeIn {
@@ -218,7 +218,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @keyframes bgFadeIn {
@@ -226,7 +226,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 :root {
@@ -1815,8 +1815,8 @@ body::before {
 #site-overview-wrap {
   padding-top: 2rem;
 }
-.site-info.fix-top {
-  margin-top: -1.5rem;
+.site-info.mickey-mouse {
+  margin-top: -2.8rem;
 }
 .site-author-avatar {
   display: inline-block;
@@ -2010,7 +2010,7 @@ body::before {
     color: var(--hty-text-color);
   }
   :root:not([data-user-color-scheme]) body::before {
-    background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg");
+    background-image: url("/images/xk.jpg");
   }
   :root:not([data-user-color-scheme]) .char {
     background-color: rgba(0,0,0,0.5);
@@ -2077,7 +2077,7 @@ body::before {
   color: var(--hty-text-color);
 }
 [data-user-color-scheme='dark'] body::before {
-  background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg");
+  background-image: url("/images/xk.jpg");
 }
 [data-user-color-scheme='dark'] .char {
   background-color: rgba(0,0,0,0.5);
